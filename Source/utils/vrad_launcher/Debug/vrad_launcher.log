@@ -1,0 +1,9 @@
+﻿  Compiling pointeroverride.asm
+  Microsoft (R) Macro Assembler Version 12.00.40629.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+   Assembling: C:\Users\elitk\Desktop\CustomVRAD\Source\public\tier0\pointeroverride.asm
+  stdafx.cpp
+  vrad_launcher.cpp
+     Creating library C:\Users\elitk\Desktop\CustomVRAD\Source\..\Binaries\vrad.lib and object C:\Users\elitk\Desktop\CustomVRAD\Source\..\Binaries\vrad.exp
+  vrad_launcher.vcxproj -> C:\Users\elitk\Desktop\CustomVRAD\Source\..\Binaries\vrad.exe
