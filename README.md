@@ -1,4 +1,4 @@
-A port of CSGO's latest VRAD to mainbranch Source (SDK 2013, TF2, etc).
+A port of CSGO's latest vRAD to mainbranch Source (SDK 2013, TF2, etc).
 
 # Current Status:
-Compiles successfully, but fails when run on a .bsp file.
+Compiles and runs successfully on dev map. Have not done significant testing, but it *should* work on any other.

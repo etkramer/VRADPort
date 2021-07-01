@@ -1,2 +1,5 @@
 /Source/.vs/
-Debug/*
+/Source/utils/vrad/Debug/
+/Source/utils/vrad_launcher/Debug/
+/Source/utils/vrad/Release/
+/Source/utils/vrad_launcher/Release/

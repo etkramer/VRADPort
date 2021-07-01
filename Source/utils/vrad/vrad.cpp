@@ -2262,9 +2262,8 @@ void VRAD_LoadBSP( char const *pFilename )
 	Q_DefaultExtension(incrementfile, ".r0", sizeof(incrementfile));
 	Q_DefaultExtension(source, ".bsp", sizeof( source ));
 
-	Msg( "Loading %s\n", platformPath );
-	VMPI_SetCurrentStage( "LoadBSPFile" );
-	LoadBSPFile (platformPath);
+	Msg("Loading %s\n", source);
+	LoadBSPFile (source);
 	
 	// now, set whether or not static prop lighting is present
 	if (g_bStaticPropLighting)
@@ -2413,9 +2412,9 @@ void VRAD_Finish()
 		PrintBSPFileSizes();
 	}
 
-	Msg( "Writing %s\n", platformPath );
+	Msg( "Writing %s\n", source );
 	VMPI_SetCurrentStage( "WriteBSPFile" );
-	WriteBSPFile(platformPath);
+	WriteBSPFile(source);
 
 	if ( g_bDumpPatches )
 	{
